@@ -10,12 +10,31 @@ a{
 }
 ul,
 li{
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    font-size: inherit;
+}
 body{
+    position: relative;
+    min-width: 320px;
+    overflow-x: hidden;
     background-color: #EDECE9;
-    color: #313841;
+    color: #353b42;
+    font-size: 18px;
+    line-height: 25px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
